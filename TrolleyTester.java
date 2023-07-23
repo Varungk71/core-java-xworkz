@@ -1,12 +1,6 @@
 class TrolleyTester {
     public static void main(String[] args) {
-        Trolley trolley1 = new Trolley();
-        trolley1.type = "Carry-On";
-        trolley1.brand = "Samsonite";
-        trolley1.price = 150.0;
-        trolley1.capacity = 30;
-		trolley1.width= 20;
-		
+        Trolley trolley1 = new Trolley("Carry-On", "Samsonite", 150.0, 30, 20);
 
         System.out.println("Trolley 1 Details:");
         System.out.println("Type: " + trolley1.type);
@@ -18,12 +12,7 @@ class TrolleyTester {
         trolley1.stop();
         System.out.println();
 
-        Trolley trolley2 = new Trolley();
-        trolley2.type = "Checked";
-        trolley2.brand = "Delsey";
-        trolley2.price = 200.0;
-        trolley2.capacity = 60;
-		trolley2.width= 27;
+        Trolley trolley2 = new Trolley("Checked", "Delsey", 200.0, 60, 27);
 
         System.out.println("Trolley 2 Details:");
         System.out.println("Type: " + trolley2.type);
@@ -35,13 +24,7 @@ class TrolleyTester {
         trolley2.stop();
         System.out.println();
 
-        Trolley trolley3 = new Trolley();
-        trolley3.type = "Travel";
-        trolley3.brand = "Rimowa";
-        trolley3.price = 500.0;
-        trolley3.capacity = 90;
-		trolley1.width= 20;
-		
+        Trolley trolley3 = new Trolley("Travel", "Rimowa", 500.0, 90, 20);
         System.out.println("Trolley 3 Details:");
         System.out.println("Type: " + trolley3.type);
         System.out.println("Brand: " + trolley3.brand);
@@ -52,13 +35,7 @@ class TrolleyTester {
         trolley3.stop();
         System.out.println();
 
-        Trolley trolley4 = new Trolley();
-        trolley4.type = "Carry-On";
-        trolley4.brand = "American Tourister";
-        trolley4.price = 100.0;
-        trolley4.capacity = 25;
-		trolley1.width= 56;
-		
+        Trolley trolley4 = new Trolley("Carry-On", "American Tourister", 100.0, 25, 56);
 
         System.out.println("Trolley 4 Details:");
         System.out.println("Type: " + trolley4.type);
@@ -70,13 +47,7 @@ class TrolleyTester {
         trolley4.stop();
         System.out.println();
 
-        Trolley trolley5 = new Trolley();
-        trolley5.type = "Checked";
-        trolley5.brand = "Travelpro";
-        trolley5.price = 180.0;
-        trolley5.capacity = 50;
-		trolley1.width= 76;
-		
+        Trolley trolley5 = new Trolley("Checked", "Travelpro", 180.0, 50, 76);
         System.out.println("Trolley 5 Details:");
         System.out.println("Type: " + trolley5.type);
         System.out.println("Brand: " + trolley5.brand);
@@ -87,13 +58,7 @@ class TrolleyTester {
         trolley5.stop();
         System.out.println();
 
-        Trolley trolley6 = new Trolley();
-        trolley6.type = "Travel";
-        trolley6.brand = "Victorinox";
-        trolley6.price = 400.0;
-        trolley6.capacity = 80;
-		trolley6.width= 67;
-		
+        Trolley trolley6 = new Trolley("Travel", "Victorinox", 400.0, 80, 67);
         System.out.println("Trolley 6 Details:");
         System.out.println("Type: " + trolley6.type);
         System.out.println("Brand: " + trolley6.brand);
@@ -104,14 +69,7 @@ class TrolleyTester {
         trolley6.stop();
         System.out.println();
 
-        Trolley trolley7 = new Trolley();
-        trolley7.type = "Carry-On";
-        trolley7.brand = "IT Luggage";
-        trolley7.price = 80.0;
-        trolley7.capacity = 20;
-		trolley7.width= 87;
-		
-
+        Trolley trolley7 = new Trolley("Carry-On", "IT Luggage", 80.0, 20, 87);
         System.out.println("Trolley 7 Details:");
         System.out.println("Type: " + trolley7.type);
         System.out.println("Brand: " + trolley7.brand);
@@ -122,14 +80,7 @@ class TrolleyTester {
         trolley7.stop();
         System.out.println();
 
-        Trolley trolley8 = new Trolley();
-        trolley8.type = "Checked";
-        trolley8.brand = "SwissGear";
-        trolley8.price = 150.0;
-        trolley8.capacity = 55;
-		trolley8.width= 90;
-		
-
+        Trolley trolley8 = new Trolley("Checked", "SwissGear", 150.0, 55, 90);
         System.out.println("Trolley 8 Details:");
         System.out.println("Type: " + trolley8.type);
         System.out.println("Brand: " + trolley8.brand);
@@ -140,13 +91,7 @@ class TrolleyTester {
         trolley8.stop();
         System.out.println();
 
-        Trolley trolley9 = new Trolley();
-        trolley9.type = "Travel";
-        trolley9.brand = "Traveler's Choice";
-        trolley9.price = 250.0;
-        trolley9.capacity = 75;
-		trolley9.width= 65;
-		
+        Trolley trolley9 = new Trolley("Travel", "Traveler's Choice", 250.0, 75, 65);
 
         System.out.println("Trolley 9 Details:");
         System.out.println("Type: " + trolley9.type);
@@ -158,15 +103,7 @@ class TrolleyTester {
         trolley9.stop();
         System.out.println();
 
-        Trolley trolley10 = new Trolley();
-        trolley10.type = "Carry-On";
-        trolley10.brand = "Rockland";
-        trolley10.price = 70.0;
-        trolley10.capacity = 18;
-		trolley10.width= 10;
-		
-
-
+        Trolley trolley10 = new Trolley("Carry-On", "Rockland", 70.0, 18, 10);
         System.out.println("Trolley 10 Details:");
         System.out.println("Type: " + trolley10.type);
         System.out.println("Brand: " + trolley10.brand);
@@ -178,3 +115,4 @@ class TrolleyTester {
         System.out.println();
     }
 }
+

@@ -1,12 +1,17 @@
-class Projector{
+class Projector {
+    String brand;
+    String model;
+    double price;
+	
+	
+	public Projector(String brand, String model, double price){
+		this.brand = brand;
+		this.model = model;
+		this.price = price;
+		
+	}
 
-String name;
-String type;
-int price;
-String color;
-
-public void projector(){
-
-	System.out.println("projector");
-}
+    public void display() {
+        System.out.println("Displaying with " + brand + " projector");
+    }
 }

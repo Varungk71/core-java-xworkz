@@ -1,12 +1,6 @@
 class SuitcaseTester {
     public static void main(String[] args) {
-        Suitcase suitcase1 = new Suitcase();
-        suitcase1.type = "Carry-On";
-        suitcase1.brand = "Samsonite";
-        suitcase1.price = 150.0;
-        suitcase1.color9 = "Black";
-        suitcase1.capacity = 30;
-
+        Suitcase suitcase1 = new Suitcase("Carry-On", "Samsonite", 150.0, "Black", 30);
         System.out.println("Suitcase 1 Details:");
         System.out.println("Type: " + suitcase1.type);
         System.out.println("Brand: " + suitcase1.brand);
@@ -17,13 +11,7 @@ class SuitcaseTester {
         suitcase1.unpack();
         System.out.println();
 
-        Suitcase suitcase2 = new Suitcase();
-        suitcase2.type = "Checked";
-        suitcase2.brand = "Delsey";
-        suitcase2.price = 200.0;
-        suitcase2.color = "Blue";
-        suitcase2.capacity = 60;
-
+        Suitcase suitcase2 = new Suitcase("Checked", "Delsey", 200.0, "Blue", 60);
         System.out.println("Suitcase 2 Details:");
         System.out.println("Type: " + suitcase2.type);
         System.out.println("Brand: " + suitcase2.brand);
@@ -34,13 +22,7 @@ class SuitcaseTester {
         suitcase2.unpack();
         System.out.println();
 
-        Suitcase suitcase3 = new Suitcase();
-        suitcase3.type = "Travel";
-        suitcase3.brand = "Rimowa";
-        suitcase3.price = 500.0;
-        suitcase3.color = "Silver";
-        suitcase3.capacity = 90;
-
+        Suitcase suitcase3 = new Suitcase("Travel", "Rimowa", 500.0, "Silver", 90);
         System.out.println("Suitcase 3 Details:");
         System.out.println("Type: " + suitcase3.type);
         System.out.println("Brand: " + suitcase3.brand);
@@ -51,12 +33,7 @@ class SuitcaseTester {
         suitcase3.unpack();
         System.out.println();
 
-        Suitcase suitcase4 = new Suitcase();
-        suitcase4.type = "Carry-On";
-        suitcase4.brand = "American Tourister";
-        suitcase4.price = 100.0;
-        suitcase4.color = "Red";
-        suitcase4.capacity = 25;
+        Suitcase suitcase4 = new Suitcase("Carry-On", "American Tourister", 100.0, "Red", 25);
 
         System.out.println("Suitcase 4 Details:");
         System.out.println("Type: " + suitcase4.type);
@@ -68,12 +45,7 @@ class SuitcaseTester {
         suitcase4.unpack();
         System.out.println();
 
-        Suitcase suitcase5 = new Suitcase();
-        suitcase5.type = "Checked";
-        suitcase5.brand = "Travelpro";
-        suitcase5.price = 180.0;
-        suitcase5.color = "Gray";
-        suitcase5.capacity = 50;
+        Suitcase suitcase5 = new Suitcase("Checked", "Travelpro", 180.0, "Gray", 50);
 
         System.out.println("Suitcase 5 Details:");
         System.out.println("Type: " + suitcase5.type);
@@ -85,12 +57,7 @@ class SuitcaseTester {
         suitcase5.unpack();
         System.out.println();
 
-        Suitcase suitcase6 = new Suitcase();
-        suitcase6.type = "Travel";
-        suitcase6.brand = "Victorinox";
-        suitcase6.price = 400.0;
-        suitcase6.color = "Green";
-        suitcase6.capacity = 80;
+        Suitcase suitcase6 = new Suitcase("Travel", "Victorinox", 400.0, "Green", 80);
 
         System.out.println("Suitcase 6 Details:");
         System.out.println("Type: " + suitcase6.type);
@@ -102,12 +69,7 @@ class SuitcaseTester {
         suitcase6.unpack();
         System.out.println();
 
-        Suitcase suitcase7 = new Suitcase();
-        suitcase7.type = "Carry-On";
-        suitcase7.brand = "IT Luggage";
-        suitcase7.price = 80.0;
-        suitcase7.color = "Purple";
-        suitcase7.capacity = 20;
+        Suitcase suitcase7 = new Suitcase("Carry-On", "IT Luggage", 80.0, "Purple", 20);
 
         System.out.println("Suitcase 7 Details:");
         System.out.println("Type: " + suitcase7.type);
@@ -119,12 +81,7 @@ class SuitcaseTester {
         suitcase7.unpack();
         System.out.println();
 
-        Suitcase suitcase8 = new Suitcase();
-        suitcase8.type = "Checked";
-        suitcase8.brand = "SwissGear";
-        suitcase8.price = 150.0;
-        suitcase8.color = "Navy";
-        suitcase8.capacity = 55;
+        Suitcase suitcase8 = new Suitcase("Checked", "SwissGear", 150.0, "Navy", 55);
 
         System.out.println("Suitcase 8 Details:");
         System.out.println("Type: " + suitcase8.type);
@@ -136,12 +93,7 @@ class SuitcaseTester {
         suitcase8.unpack();
         System.out.println();
 
-        Suitcase suitcase9 = new Suitcase();
-        suitcase9.type = "Travel";
-        suitcase9.brand = "Traveler's Choice";
-        suitcase9.price = 250.0;
-        suitcase9.color = "Teal";
-        suitcase9.capacity = 75;
+        Suitcase suitcase9 = new Suitcase("Travel", "Traveler's Choice", 250.0, "Teal", 75);
 
         System.out.println("Suitcase 9 Details:");
         System.out.println("Type: " + suitcase9.type);
@@ -153,13 +105,7 @@ class SuitcaseTester {
         suitcase9.unpack();
         System.out.println();
 
-        Suitcase suitcase10 = new Suitcase();
-        suitcase10.type = "Carry-On";
-        suitcase10.brand = "Rockland";
-        suitcase10.price = 70.0;
-        suitcase10.color = "Pink";
-        suitcase10.capacity = 18;
-
+        Suitcase suitcase10 = new Suitcase("Carry-On", "Rockland", 70.0, "Pink", 18);
         System.out.println("Suitcase 10 Details:");
         System.out.println("Type: " + suitcase10.type);
         System.out.println("Brand: " + suitcase10.brand);

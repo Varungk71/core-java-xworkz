@@ -1,84 +1,63 @@
-class ProjectorTester{
+class ProjectorTester {
+    public static void main(String[] args) {
+        Projector projector1 = new Projector("steel", "PowerLite Home Cinema 2045", 799.99);
+        System.out.println("Brand: " + projector1.brand);
+        System.out.println("Model: " + projector1.model);
+        System.out.println("Price: $" + projector1.price);
+        System.out.println();
 
-public static void main(String args[]){
+        Projector projector2 = new Projector("Optoma", "HD143X", 599.99);
+        System.out.println("Brand: " + projector2.brand);
+        System.out.println("Model: " + projector2.model);
+        System.out.println("Price: $" + projector2.price);
+        System.out.println();
 
-Projector projector1 = new Projector();
-projector1.name= "Epson Home Cinema 2150";
-projector1.type= "Home Theater Projector";
-projector1.color= "Black";
-projector1.price=  55999;
-System.out.println(projector1.name+" "+projector1.type+" "+projector1.color+" "+projector1.price);
+        Projector projector3 = new Projector("BenQ", "HT2050A", 749.99);
+        System.out.println("Brand: " + projector3.brand);
+        System.out.println("Model: " + projector3.model);
+        System.out.println("Price: $" + projector3.price);
+        System.out.println();
 
-Projector projector2 = new Projector();
-projector2.name= "Optoma HD146X";
-projector2.type= "1080p Home Theater Projector";
-projector2.color= "White";
-projector2.price=  49999;
-System.out.println(projector2.name+" "+projector2.type+" "+projector2.color+" "+projector2.price);
+        Projector projector4 = new Projector("ViewSonic", "PX700HD", 599.99);
+        System.out.println("Brand: " + projector4.brand);
+        System.out.println("Model: " + projector4.model);
+        System.out.println("Price: $" + projector4.price);
+        System.out.println();
 
+        Projector projector5 = new Projector("Sony", "VPL-HW45ES", 1499.99);
+        System.out.println("Brand: " + projector5.brand);
+        System.out.println("Model: " + projector5.model);
+        System.out.println("Price: $" + projector5.price);
+        System.out.println();
 
-Projector projector3 = new Projector();
-projector3.name= "BenQ TK850i";
-projector3.type= "4K HDR Home Entertainment Projector";
-projector3.color= "Silver";
-projector3.price=  89999;
-System.out.println(projector3.name+" "+projector3.type+" "+projector3.color+" "+projector3.price);
+        Projector projector6 = new Projector("LG", "HU80KA", 2499.99);
+        System.out.println("Brand: " + projector6.brand);
+        System.out.println("Model: " + projector6.model);
+        System.out.println("Price: $" + projector6.price);
+        System.out.println();
 
+        Projector projector7 = new Projector("Casio", "XJ-A257", 999.99);
+        System.out.println("Brand: " + projector7.brand);
+        System.out.println("Model: " + projector7.model);
+        System.out.println("Price: $" + projector7.price);
+        System.out.println();
 
-Projector projector4 = new Projector();
-projector4.name= "ViewSonic PA503W";
-projector4.type= "WXGA Projector";
-projector4.color= "White";
-projector4.price=  36999;
-System.out.println(projector4.name+" "+projector4.type+" "+projector4.color+" "+projector4.price);
+        Projector projector8 = new Projector("Acer", "H6531BD", 499.99);
+        System.out.println("Brand: " + projector8.brand);
+        System.out.println("Model: " + projector8.model);
+        System.out.println("Price: $" + projector8.price);
+        System.out.println();
 
+        Projector projector9 = new Projector("NEC", "NP-ME372W", 899.99);
+        System.out.println("Brand: " + projector9.brand);
+        System.out.println("Model: " + projector9.model);
+        System.out.println("Price: $" + projector9.price);
+        System.out.println();
 
-Projector projector5 = new Projector();
-projector5.name= "Sony VPL-HW45ES";
-projector5.type= "Full HD Home Theater Projector";
-projector5.color= "Black";
-projector5.price=  129999;
-System.out.println(projector5.name+" "+projector5.type+" "+projector5.color+" "+projector5.price);
-
-
-Projector projector6 = new Projector();
-projector6.name= "LG PF50KA";
-projector6.type= "Portable LED Projector";
-projector6.color= "White";
-projector6.price=  59999;
-System.out.println(projector6.name+" "+projector6.type+" "+projector6.color+" "+projector6.price);
-
-
-Projector projector7 = new Projector();
-projector7.name= "Acer H7850";
-projector7.type= "4K UHD Home Theater Projector";
-projector7.color= "Silver";
-projector7.price=  199999;
-System.out.println(projector7.name+" "+projector7.type+" "+projector7.color+" "+projector7.price);
-
-
-projector8.Projector projector8 = new Projector();
-projector8.name= "XGIMI MoGo Pro";
-projector8.type= "Portable Smart Projector";
-projector8.color= "Gray";
-projector8.price=  42999;
-System.out.println(projector8.name+" "+projector8.type+" "+projector8.color+" "+projector8.price);
-
-
-Projector projector9 = new Projector();
-projector9.name= "Anker Nebula Capsule Max";
-projector9.type= "Portable Mini Projector";
-projector9.color= "Black";
-projector9.price=  32999;
-System.out.println(projector9.name+" "+projector9.type+" "+projector9.color+" "+projector9.price);
-
-
-Projector projector10 = new Projector();
-projector10.name= "VANKYO Leisure 470";
-projector10.type= "Mini WiFi Projector";
-projector10.color= "White";
-projector10.price=  24999;
-System.out.println(projector10.name+" "+projector10.type+" "+projector10.color+" "+projector10.price);
-
-}
+        Projector projector10 = new Projector("InFocus", "IN134UST", 1199.99);
+        System.out.println("Brand: " + projector10.brand);
+        System.out.println("Model: " + projector10.model);
+        System.out.println("Price: $" + projector10.price);
+        System.out.println();
+    }
 }

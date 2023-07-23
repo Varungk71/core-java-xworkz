@@ -1,12 +1,6 @@
 class WalletTester {
     public static void main(String[] args) {
-        Wallet wallet1 = new Wallet();
-        wallet1.type = "Bifold";
-        wallet1.brand = "Louis Vuitton";
-        wallet1.price = 500.0;
-        wallet1.material = "Leather";
-        wallet1.cardSlots = 6;
-
+        Wallet wallet1 = new Wallet("Bifold", "Louis Vuitton", 500.0, "Leather", 6);
         System.out.println("Wallet 1 Details:");
         System.out.println("Type: " + wallet1.type);
         System.out.println("Brand: " + wallet1.brand);
@@ -17,13 +11,7 @@ class WalletTester {
         wallet1.retrieveMoney();
         System.out.println();
 
-        Wallet wallet2 = new Wallet();
-        wallet2.type = "Trifold";
-        wallet2.brand = "Gucci";
-        wallet2.price = 300.0;
-        wallet2.material = "Leather";
-        wallet2.cardSlots = 8;
-
+        Wallet wallet2 = new Wallet("Trifold", "Gucci", 300.0, "Leather", 8);
         System.out.println("Wallet 2 Details:");
         System.out.println("Type: " + wallet2.type);
         System.out.println("Brand: " + wallet2.brand);
@@ -34,13 +22,7 @@ class WalletTester {
         wallet2.retrieveMoney();
         System.out.println();
 
-        Wallet wallet3 = new Wallet();
-        wallet3.type = "Slim";
-        wallet3.brand = "Prada";
-        wallet3.price = 400.0;
-        wallet3.material = "Leather";
-        wallet3.cardSlots = 4;
-
+        Wallet wallet3 = new Wallet("Slim", "Prada", 400.0, "Leather", 4);
         System.out.println("Wallet 3 Details:");
         System.out.println("Type: " + wallet3.type);
         System.out.println("Brand: " + wallet3.brand);
@@ -51,13 +33,7 @@ class WalletTester {
         wallet3.retrieveMoney();
         System.out.println();
 
-        Wallet wallet4 = new Wallet();
-        wallet4.type = "Money Clip";
-        wallet4.brand = "Montblanc";
-        wallet4.price = 250.0;
-        wallet4.material = "Leather";
-        wallet4.cardSlots = 2;
-
+        Wallet wallet4 = new Wallet("Money Clip", "Montblanc", 250.0, "Leather", 2);
         System.out.println("Wallet 4 Details:");
         System.out.println("Type: " + wallet4.type);
         System.out.println("Brand: " + wallet4.brand);
@@ -68,13 +44,7 @@ class WalletTester {
         wallet4.retrieveMoney();
         System.out.println();
 
-        Wallet wallet5 = new Wallet();
-        wallet5.type = "Card Holder";
-        wallet5.brand = "Hermes";
-        wallet5.price = 600.0;
-        wallet5.material = "Leather";
-        wallet5.cardSlots = 12;
-
+        Wallet wallet5 = new Wallet("Card Holder", "Hermes", 600.0, "Leather", 12);
         System.out.println("Wallet 5 Details:");
         System.out.println("Type: " + wallet5.type);
         System.out.println("Brand: " + wallet5.brand);
@@ -85,13 +55,7 @@ class WalletTester {
         wallet5.retrieveMoney();
         System.out.println();
 
-        Wallet wallet6 = new Wallet();
-        wallet6.type = "Bifold";
-        wallet6.brand = "Coach";
-        wallet6.price = 150.0;
-        wallet6.material = "Leather";
-        wallet6.cardSlots = 4;
-
+        Wallet wallet6 = new Wallet("Bifold", "Coach", 150.0, "Leather", 4);
         System.out.println("Wallet 6 Details:");
         System.out.println("Type: " + wallet6.type);
         System.out.println("Brand: " + wallet6.brand);
@@ -102,13 +66,7 @@ class WalletTester {
         wallet6.retrieveMoney();
         System.out.println();
 
-        Wallet wallet7 = new Wallet();
-        wallet7.type = "Trifold";
-        wallet7.brand = "Fossil";
-        wallet7.price = 80.0;
-        wallet7.material = "Leather";
-        wallet7.cardSlots = 6;
-
+        Wallet wallet7 = new Wallet("Trifold", "Fossil", 80.0, "Leather", 6);
         System.out.println("Wallet 7 Details:");
         System.out.println("Type: " + wallet7.type);
         System.out.println("Brand: " + wallet7.brand);
@@ -119,13 +77,7 @@ class WalletTester {
         wallet7.retrieveMoney();
         System.out.println();
 
-        Wallet wallet8 = new Wallet();
-        wallet8.type = "Slim";
-        wallet8.brand = "Michael Kors";
-        wallet8.price = 200.0;
-        wallet8.material = "Leather";
-        wallet8.cardSlots = 6;
-
+        Wallet wallet8 = new Wallet("Slim", "Michael Kors", 200.0,  "Leather", 6);
         System.out.println("Wallet 8 Details:");
         System.out.println("Type: " + wallet8.type);
         System.out.println("Brand: " + wallet8.brand);
@@ -136,13 +88,7 @@ class WalletTester {
         wallet8.retrieveMoney();
         System.out.println();
 
-        Wallet wallet9 = new Wallet();
-        wallet9.type = "Money Clip";
-        wallet9.brand = "Calvin Klein";
-        wallet9.price = 100.0;
-        wallet9.material = "Leather";
-        wallet9.cardSlots = 2;
-
+        Wallet wallet9 = new Wallet("Money Clip", "Calvin Klein", 100.0, "leather", 2);
         System.out.println("Wallet 9 Details:");
         System.out.println("Type: " + wallet9.type);
         System.out.println("Brand: " + wallet9.brand);
@@ -153,12 +99,7 @@ class WalletTester {
         wallet9.retrieveMoney();
         System.out.println();
 
-        Wallet wallet10 = new Wallet();
-        wallet10.type = "Card Holder";
-        wallet10.brand = "Kate Spade";
-        wallet10.price = 120.0;
-        wallet10.material = "Leather";
-        wallet10.cardSlots = 8;
+        Wallet wallet10 = new Wallet("Card Holder", "Kate Spade", 120.0, "leather", 8);
 
         System.out.println("Wallet 10 Details:");
         System.out.println("Type: " + wallet10.type);
@@ -171,3 +112,4 @@ class WalletTester {
         System.out.println();
     }
 }
+
