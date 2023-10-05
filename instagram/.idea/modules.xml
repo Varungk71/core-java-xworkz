@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/file-handling.iml" filepath="$PROJECT_DIR$/file-handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instagram.iml" filepath="$PROJECT_DIR$/instagram.iml" />
     </modules>
   </component>
 </project>
