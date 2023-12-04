@@ -17,7 +17,7 @@ public class InstagramImpl implements Instagram
         try{
             con= DriverManager.getConnection( "jdbc:mysql://localhost:3306/social_media","root","Xworkzodc@123");
             stmt=con.createStatement();
-//            stmt.execute("insert into profile values('1','varun_g_k','8654567866','22','Varun@123','Varun g k')");
+            
             stmt.execute("insert into profile values('2','jeevan_d_b','9856475437','20','Jeevan@123','Jeevan D B')");
             stmt.execute("insert into profile values('3','kiran_h_l','6759473645','25','Kiran@123','Kiran H L')");
             stmt.execute("insert into profile values('4','abhi_c','9856374585','30','Abhi@123','ABHI C')");

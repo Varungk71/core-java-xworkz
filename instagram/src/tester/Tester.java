@@ -11,8 +11,7 @@ public class Tester
     {
         Scanner sc=new Scanner(System.in);
         Instagram insta=new InstagramImpl();
-//        System.out.println("enter user id -");
-//        sc.next();
+
         insta.addUser();
 
 

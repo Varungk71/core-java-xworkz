@@ -24,7 +24,7 @@ public class ECommerceMeshoImpl implements EcommerceMesho
 //            stmt.executeUpdate("insert into customer_table values(2,'kiran','kiran@gmail','5947484744','Kiran@123','Davanagere')");
 //            stmt.executeUpdate("insert into customer_table values(3,'abhishek','abhi@gmail','9339484744','Abhi@123','Davanagere')");
             stmt.executeUpdate("insert into customer_table values(4,'jeevan','jeevan@gmail','9785654653','Jeevan@123','Hassan')");
-            stmt.executeUpdate("insert into customer_table values(5,'amith','amith@gmail','8673948474','Amith@123','Banglore')");
+                stmt.executeUpdate("insert into customer_table values(5,'amith','amith@gmail','8673948474','Amith@123','Banglore')");
             stmt.executeUpdate("insert into customer_table values(6,'lohith','lohith@gmail','5645757744','Lohith@123','Shimoga')");
 //            System.out.println(noOfRows);
             return true;
